@@ -19,7 +19,7 @@ node {
     }
   
     stage('deploy') {
-      def resourceGroup = 'Quickstartjenkins-rg
+      def resourceGroup = 'Quickstartjenkins-rg'
 '
       def webAppName = 'jacksApp1098'
       // login Azure
