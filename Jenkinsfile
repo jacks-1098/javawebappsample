@@ -20,7 +20,6 @@ node {
   
     stage('deploy') {
       def resourceGroup = 'Quickstartjenkins-rg'
-'
       def webAppName = 'jacksApp1098'
       // login Azure
       withCredentials([usernamePassword(credentialsId: 'azureserviceprincial', passwordVariable: 'DI6MMvrQIdKGoo~Fbh2pkkH3CgMrTGrSvt', usernameVariable: 'AZURE_CLIENT_ID3d45938f-c8c1-4204-a8be-1919552e49e0')]) {
